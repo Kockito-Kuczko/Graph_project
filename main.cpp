@@ -10,3 +10,4 @@ int main() {
 
 //created by Kockito Kuczko @2014
 //gedit +terminal push test 2
+//pull test
