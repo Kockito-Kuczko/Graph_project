@@ -9,4 +9,4 @@ int main() {
 }
 
 //created by Kockito Kuczko @2014
-// test
+//gedit +terminal push test
