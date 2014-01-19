@@ -1,8 +1,6 @@
-#include <iostream>
-#include <vector>
+#include "constant.h"
 #include "defaultgr.h"
 
-using namespace std;
 
 int main() {
 
