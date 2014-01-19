@@ -1,6 +1,8 @@
 #include "constant.h"
 #include "defaultgr.h"
 
+bool checkInput(char c);
+bool checkExistingEdge();
 
 int main() {
 	cout << "Hello world!" << endl;
@@ -9,9 +11,14 @@ int main() {
 	for(int x = 0; x < 4; x++) {
 	    for (int y = 0; y < 2; y++) {
 	        cout << "Enter adjacent for vertex " << x + 1 << "," << y + 1 << endl;
-	        cin >> defaultgr[x][y] ;
+	        cin >> defaultgr[x][y];
 	        
-	        //Check if vertex number is valid
+	        //Check if input is an integer
+	        if (checkInput(defaultgr[x][y]) == false) {
+	            cout << "Please enter an integer." << endl;
+	        }
+	        
+	        //Check if input vertex number is valid
 	        if  (defaultgr[x][y] < 0 || defaultgr[x][y] > 3) {
 	            cout << "Error: vertex numbers range from 0 to 3" << endl;
 	        }
@@ -26,6 +33,15 @@ int main() {
 	cout << endl;
 	
 	return 0;
+}
+
+bool checkInput(char c) {
+    return '0' <= c && c <= '9';
+
+}
+
+bool checkExistingEdge() {
+
 }
 
 //created by Kockito Kuczko @2014
