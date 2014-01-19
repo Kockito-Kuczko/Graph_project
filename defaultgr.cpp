@@ -3,5 +3,5 @@
 #include "defaultgr.h"
 
 
-int defaultgr[4] = {1,2,3,4};
+int defaultgr[4][2];
 

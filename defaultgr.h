@@ -2,4 +2,5 @@
 //#define __DEFAULTGR_H_INCLUDED__
 
 
-int defaultgr[4] = {1,2,3,4};
+int defaultgr[4][2];
+

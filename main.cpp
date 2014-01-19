@@ -4,6 +4,10 @@
 
 int main() {
 	cout << "Hello world!" << endl;
+	
+	
+	
+	
 	cout << "Default graph edges:" << endl;
 	for(int x = 0; x<4; x++) {
  		cout << defaultgr[x] << " ";
