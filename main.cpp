@@ -10,7 +10,7 @@ int main() {
 	    for (int y = 0; y < 2; y++){
 	        cout << "Enter adjacent for vertex " << x+1 << "," << y+1 << endl;
 	        cin >> defaultgr[x][y] ;
-            	//cout << defaultgr[x][y] << " ";
+            //cout << defaultgr[x][y] << " ";
         }
 	}
 
