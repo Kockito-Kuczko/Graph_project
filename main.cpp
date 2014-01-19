@@ -5,12 +5,12 @@
 int main() {
 	cout << "Hello world!" << endl;
 	
-	
-	
-	
 	cout << "Default graph edges:" << endl;
-	for(int x = 0; x<4; x++) {
- 		cout << defaultgr[x] << " ";
+	for(int x = 0; x < 4; x++) {
+	    for (int y = 0; y < 2; y++){
+	        cout << "Enter adjacent for vertex " << x << endl;
+ 		    cout << defaultgr[x][y] << " ";
+ 		}
 	}
 
 	cout << endl;
