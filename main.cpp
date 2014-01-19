@@ -16,6 +16,8 @@ int main() {
 	            cout << "Error: vertex numbers range from 0 to 3" << endl;
 	        }
         }
+        
+        //Warn about loop edges.
         if (defaultgr[x][0] == defaultgr[x][1]) {
             cout << "No loop edges allowed for now, please." << endl;
         }
